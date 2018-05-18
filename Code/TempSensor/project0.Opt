@@ -1,0 +1,48 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (project0), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source),1,0,0
+GRPOPT 2,(Libraries),1,0,0
+GRPOPT 3,(Documentation),1,0,0
+
+OPTFFF 1,1,1,436207617,0,308,288,0,<.\project0.c><project0.c> 
+OPTFFF 1,2,2,0,0,269,270,0,<.\startup_rvmdk.S><startup_rvmdk.S> 
+OPTFFF 2,3,4,0,0,0,0,0,<..\..\..\..\driverlib\rvmdk\driverlib.lib><driverlib.lib> 
+OPTFFF 3,4,5,0,0,0,0,0,<.\readme.txt><readme.txt> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,0,0,0,0,0,0,0,0,217,2,0,0,44,1,0,0 }
+
+ExtF <C:\Ti\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c> 405,406,0,{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+
+TARGOPT 1, (project0)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\rvmdk\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTBL 0,(Data Sheet)<DATASHTS\Luminary\TM4C123GH6PM.PDF>
+  OPTDL (SARMCM3.DLL)(-MPU)(DCM.DLL)(-pCM4)(SARMCM3.DLL)(-MPU)(TCM.DLL)(-pCM4)
+  OPTDBG 1883134,3,()()()()()()()()()() (BIN\lmidk-agdi.dll)()()()
+  OPTKEY 0,(DLGUARM)(ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллх`Аbц┼ЖЧ)
+  OPTKEY 0,(UL2CM3)(UL2CM3(-O207 -S0 -C0 -FO7 -FD20000000 -FC800 -FN1 -FF0TM4C123_32 -FS00 -FL08000))
+  OPTKEY 0,(lmidk-agdi)(-U-O4614 -O4614 -S4 -FO29)
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(1012=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)()
+  OPTBB 0,0,219,1,3890,0,0,0,0,1,<C:\Ti\TivaWare_C_Series-2.1.4.178\examples\boards\ek-tm4c123gxl\project0\project0.c>()()
+  OPTDF 0x8000092
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

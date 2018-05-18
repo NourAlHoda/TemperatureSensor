@@ -1,0 +1,25 @@
+Dependencies for Project 'project0', Target 'project0': (DO NOT MODIFY !)
+F (.\project0_c.c)(0x5AFEDB05)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\project0_c.o --omf_browse .\rvmdk\project0_c.crf --depend .\rvmdk\project0_c.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (..\..\..\..\inc/hw_types.h)(0x59D28BAA)
+I (..\..\..\..\inc/hw_memmap.h)(0x59D28BAA)
+I (..\..\..\..\driverlib/sysctl.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/gpio.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/adc.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/pin_map.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/uart.h)(0x5AFC4BA6)
+I (..\..\..\..\driverlib/uart.c)(0x59D28B9E)
+I (..\..\..\..\inc/hw_ints.h)(0x59D28BAA)
+I (..\..\..\..\inc/hw_sysctl.h)(0x59D28BAA)
+I (..\..\..\..\inc/hw_uart.h)(0x59D28BAA)
+I (..\..\..\..\driverlib/debug.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/interrupt.h)(0x59D28B9E)
+I (..\..\..\..\utils/uartstdio.h)(0x5AFC4B36)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (..\..\..\..\utils/uartstdio.c)(0x59D28BB8)
+I (..\..\..\..\driverlib/rom.h)(0x59D28B9E)
+I (..\..\..\..\driverlib/rom_map.h)(0x59D28B9E)
+F (.\startup_rvmdk.S)(0x5AFC4A2C)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x59D28B9E)()
+F (.\readme.txt)(0x59D28BA0)()
